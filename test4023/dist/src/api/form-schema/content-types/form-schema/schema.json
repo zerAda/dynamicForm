@@ -1,0 +1,26 @@
+{
+    "kind": "collectionType",
+    "collectionName": "form_schemas",
+    "info": {
+        "singularName": "form-schema",
+        "pluralName": "form-schemas",
+        "displayName": "form-schema"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "schema": {
+            "type": "json"
+        },
+        "uischema": {
+            "type": "json"
+        },
+        "data": {
+            "type": "json"
+        }
+    }
+}
